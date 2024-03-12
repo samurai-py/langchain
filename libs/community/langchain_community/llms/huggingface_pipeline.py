@@ -261,7 +261,7 @@ class HuggingFacePipeline(BaseLLM):
             responses = self.pipeline(
                 batch_prompts,
                 stop_sequence=stop,
-                return_full_text=False,
+                #return_full_text=False,
                 **pipeline_kwargs,
             )
 
